@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Routes from "./organization/Routes";
 import NavigationBar from "./organization/NavigationBar";
+import "./App.css";
 
 const App = () => {
   return (
@@ -12,9 +13,6 @@ const App = () => {
           <Route exact path={route.path} key={route.path}>
             <div
               style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
                 width: "100vw",
                 height: "100vh",
                 backgroundColor: "#f8f9fa",

@@ -56,7 +56,7 @@ const NavigationBar = (props) => {
   return (
     <div>
       <div className={classes.root}>
-        <AppBar position="static">
+        <AppBar position="static" style={{ background: "#4834d4" }}>
           <Toolbar>
             <IconButton
               edge="start"
