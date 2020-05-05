@@ -55,6 +55,8 @@ function ControlledGauge() {
           </div>
           <Slider
             value={value}
+            max={max}
+            min={min}
             onChange={(event, newValue) => setValue(newValue)}
             aria-labelledby="continuous-slider"
           />
